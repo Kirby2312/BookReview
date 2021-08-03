@@ -1,0 +1,186 @@
+#banner{
+	width: 100%;
+	position: relative;
+	height: 700px;
+	object-fit: cover;
+}
+
+#top{
+	display: flex;
+}
+
+#top>div, #top>h2{
+	position: absolute;
+}
+
+h1{
+	font-size: 400%;
+	color: black;
+	font-weight: bold;
+	letter-spacing: 30px;
+	opacity: 1;
+}
+
+#bannertext{
+	padding: 20px;
+	border-radius: 30px;
+	background-color: darkred;
+	font-size: 250%;
+	opacity: 0.8;
+	top: 75%;
+	left: 5%;
+}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	background-color: #B9F49D;
+}
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+#heading{
+	background-color: lightgray;
+	opacity: 0.5;
+	width: 30%;
+	padding: 2%;
+	top: 25%;
+	left: 5%;
+}
+
+h2{
+	padding: 30px;
+	font-size: 200%;
+}
+
+#recommendation{
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+
+.border{
+	border: 1px solid black;
+	width: 15%;
+	padding: 2%;
+}
+
+.cards{
+	width: 100%;
+	height: 300px;
+}
+
+.cards:hover{
+	border: 2px solid black;
+	opacity: 0.8;
+}
+
+p{
+	line-height: 40px;
+	color: black;
+	font-size: 120%;
+}
+
+a{
+	text-decoration: none;
+}
+
+.button{
+	background-color: #E89090;
+	padding: 2%;
+	width: 65%;
+	text-align: center;
+	border-radius: 10px;
+
+}
+
+.button:hover{
+	background-color: black;
+	color: white;
+}
+
+#new{
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+
+.desc{
+	display: flex;
+	justify-content: space-evenly;
+	padding: 5%;
+	align-items: center;
+}
+
+.list{
+	width: 40%;
+	height: 200px;
+}
+
+.list:hover{
+	width: 45%;
+}
+
+.column{
+	width: 30%;
+}
+
+h3{
+	text-align: center;
+	padding: 10px;
+}
+
+h3:hover{
+	text-decoration: overline;
+}
+
+.paragraph{
+	padding-left: 30px;
+	font-size: 100%;
+}
+
+.paragraph:hover{
+	text-decoration: underline;
+}
+
+@media screen and (max-width: 1000px){
+	body{
+		background-color: lightgray;
+	}
+	#banner{
+		height: 500px;
+	}
+
+	h1{
+		font-size: 250%;
+		top: 10%;
+	}
+
+	#heading{
+		width: 50%;
+	}
+
+	#bannertext{
+		font-size: 150%;
+		top: 60%;
+	}
+}
+
+@media screen and (max-width: 600px){
+	body{
+		background-color: lightblue;
+	}
+	#banner{
+		height: 300px;
+	}
+	#heading{
+		display: none;
+	}
+	#bannertext{
+		width: 70%;
+		top: 5%;
+		text-align: center;
+	}
+}
