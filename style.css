@@ -31,6 +31,10 @@ h1{
 	left: 5%;
 }
 
+#link{
+	color: black;
+}
+
 body{
 	font-family: 'Montserrat', sans-serif;
 	background-color: #B9F49D;
