@@ -8,15 +8,24 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+	<script type="text/javascript">
+		alert('Welcome to my website!')
+
+		function hello(){
+			alert("This book is highly recommeded!")
+		}
+
+	</script>
 </head>
 <body>
 	<div id="top">
 		<img id="banner" src="https://images.unsplash.com/photo-1561657819-51c0511e35ab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1502&q=80">
 		<div id="heading">
-			<h1>All <br> About <br> Books</h1>
+			<h1><a href="navigation.html" target="_blank">All <br> About <br> Books</a><h1>
 		</div>
 		
-		<h2 id="bannertext"><a id="link" href="bootstrap.html">Learn More</a></h2>
+		<h2 id="bannertext"><a id="link" href="bootstrap.html"  target="_blank">Learn More</a></h2>
 	</div>
 	
 	<h2>Top Recommendation</h2>
@@ -24,27 +33,27 @@
 	<div id="recommendation">
 		<div class="border">
 			<!-- Card 1 -->
-			<img class="cards" src="https://images-na.ssl-images-amazon.com/images/I/61JfGcL2ljL.jpg">
+			<img onclick="hello()" class="cards" src="https://images-na.ssl-images-amazon.com/images/I/61JfGcL2ljL.jpg">
 			<p>The Hunger Games <br> Written By : Suzzane Collins</p>
-			<a href="https://en.wikipedia.org/wiki/The_Hunger_Games"><p class="button">More Info</p></a>
+			<a href="https://en.wikipedia.org/wiki/The_Hunger_Games"  target="_blank"><p class="button">More Info</p></a>
 		</div>
 		<div class="border">
 			<!-- Card 2 -->
 			<img class="cards" src="https://images-na.ssl-images-amazon.com/images/I/51UU0FLH1wL._SX330_BO1,204,203,200_.jpg">
 			<p>The Maze Runner <br> Written By : James Dashner</p>
-			<a href="https://en.wikipedia.org/wiki/The_Maze_Runner"><p class="button">More Info</p></a>
+			<a href="https://en.wikipedia.org/wiki/The_Maze_Runner"  target="_blank"><p class="button">More Info</p></a>
 		</div>
 		<div class="border">
 			<!-- Card 3 -->
 			<img class="cards" src="https://images-na.ssl-images-amazon.com/images/I/81-DFVziuwL.jpg">
 			<p>Divergent <br> Written By : Veronica Roth</p>
-			<a href="https://en.wikipedia.org/wiki/Divergent_(novel)"><p class="button">More Info</p></a>
+			<a href="https://en.wikipedia.org/wiki/Divergent_(novel)"  target="_blank"><p class="button">More Info</p></a>
 		</div>
 		<div class="border">
 			<!-- Card 4 -->
 			<img class="cards" src="https://i.pinimg.com/originals/e0/2a/a6/e02aa65172001645eb90a3da22c59979.jpg">
 			<p>The City of Ember <br>Written By : Jeanne DuPrau</p>
-			<a href="https://www.goodreads.com/book/show/307791.The_City_of_Ember"><p class="button">More Info</p></a>
+			<a href="https://www.goodreads.com/book/show/307791.The_City_of_Ember"  target="_blank"><p class="button">More Info</p></a>
 		</div>
 	</div>
 
